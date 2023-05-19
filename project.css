@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 .row .options .option{
     display: flex;
     cursor: pointer;
@@ -65,4 +66,22 @@
 .colors .options{
   display: flex;
   justify-content: space-between;
+}
+.colors .options{
+  display: flex;
+  justify-content: space-between;
+}
+.colors .option{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: 3px;
+  position: relative;
+}
+.colors .option:nth-child(1){
+  background-color: #fff;
+  border: 1px solid #bfbfbf;
+}
+.colors .option:nth-child(2){
+  background-color: #000;
 }
